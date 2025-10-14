@@ -9,7 +9,7 @@ NC="\033[0m"
 
 # Variables
 _SERVER_VERSION="0.1"
-_SERVER_DOWNLOAD_PATH="7058/581"
+_SERVER_DOWNLOAD_PATH="XYZ/XYZ"
 _SERVER_FILES="ServerFiles-${_SERVER_VERSION}.zip"
 
 echo -e "${BLUE}> [DEBUG] ATM10 - Server version: ${_SERVER_VERSION}${NC}"
