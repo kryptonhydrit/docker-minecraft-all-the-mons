@@ -1,4 +1,4 @@
-IMAGE_NAME := kryptonhydrit/minecraft-atm10mons
+IMAGE_NAME := kryptonhydrit/minecraft-allthemons
 IMAGE_VERSION ?= $(shell cat VERSION)
 
 build:

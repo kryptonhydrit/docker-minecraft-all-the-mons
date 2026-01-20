@@ -1,9 +1,9 @@
-# Docker - Minecraft | All the Mons 10 Server
-<!-- ![Docker Image Version](https://img.shields.io/docker/v/kryptonhydrit/minecraft-allthemons10)
-![Docker Pulls](https://img.shields.io/docker/pulls/kryptonhydrit/minecraft-allthemons10)
-![Docker Stars](https://img.shields.io/docker/stars/kryptonhydrit/minecraft-allthemons10) -->
+# Docker - Minecraft | All the Mons Server
+![Docker Image Version](https://img.shields.io/docker/v/kryptonhydrit/minecraft-allthemons)
+![Docker Pulls](https://img.shields.io/docker/pulls/kryptonhydrit/minecraft-allthemons)
+![Docker Stars](https://img.shields.io/docker/stars/kryptonhydrit/minecraft-allthemons)
 
-- [Docker - Minecraft | All the Mons 10 Server](#docker---minecraft--all-the-mons-10-server)
+- [Docker - Minecraft | All the Mons Server](#docker---minecraft--all-the-mons-server)
   - [About](#about)
   - [Getting started](#getting-started)
   - [Environment variables](#environment-variables)
@@ -13,16 +13,16 @@
 
 
 ## About
-On first run the container will download and install the tagged Version ´[All the Mons 10](https://www.curseforge.com/minecraft/modpacks/all-the-mons-10)-X.X.X´ and install it.
+On first run the container will download and install the tagged Version ´[All the Mons](https://www.curseforge.com/minecraft/modpacks/all-the-mons)-X.X.X´ and install it.
 
 ## Getting started
 
 1. Create a `game` sub-directory on your Docker-Node
-    - (Examples: `/opt/minecraft-atm10mons`)
+    - (Examples: `/opt/minecraft-allthemons`)
     - Directory will be used to store the gamefiles
-2. Pull latest version with `docker pull kryptonhydrit/minecraft-atm10mons:latest`
+2. Pull latest version with `docker pull kryptonhydrit/minecraft-allthemons:latest`
 3. Start the container with the following command: \
-  `docker run -d -e "EULA=true" -v "/opt/minecraft-atm10mons:/data" -p "25565:25565" --name minecraft-atm10mons kryptonhydrit/minecraft-atm10:latest`
+  `docker run -d -e "EULA=true" -v "/opt/minecraft-allthemons:/data" -p "25565:25565" --name minecraft-allthemons kryptonhydrit/minecraft-allthemons:latest`
 
 ## Environment variables
 
@@ -34,10 +34,10 @@ See [this file](/docs/ENV_VARS.md) for the documentation
 > [!CAUTION]
 > Don't update your server without backup the `game` directory
 1. Backup your `game` directory
-2. Pull latest image or specific version from the container `docker pull kryptonhydrit/minecraft-atm10mons:TAG`
+2. Pull latest image or specific version from the container `docker pull kryptonhydrit/minecraft-allthemons:TAG`
 3. Start the container and mount the existing `game` directory
 
 ## Sources
 
-Github: https://github.com/kryptonhydrit/docker-minecraft-all-the-mods-10 \
-Docker: https://hub.docker.com/r/kryptonhydrit/minecraft-allthemons10
+Github: https://github.com/kryptonhydrit/docker-minecraft-all-the-mons \
+Docker: https://hub.docker.com/r/kryptonhydrit/minecraft-allthemons

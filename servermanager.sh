@@ -12,7 +12,7 @@ _SERVER_VERSION="0.1"
 _SERVER_DOWNLOAD_PATH="XYZ/XYZ"
 _SERVER_FILES="ServerFiles-${_SERVER_VERSION}.zip"
 
-echo -e "${BLUE}> [DEBUG] ATM10 - Server version: ${_SERVER_VERSION}${NC}"
+echo -e "${BLUE}> [DEBUG] ATMons - Server version: ${_SERVER_VERSION}${NC}"
 
 if [[ ! -d "/data" ]]; then
     echo -e "${RED}> [ERROR] No mountpoint found, data loss possible - Continue without persistent data!${NC}"
