@@ -8,8 +8,8 @@ BLUE="\033[0;34m"
 NC="\033[0m"
 
 # Variables
-_SERVER_VERSION="0.11.0-beta"
-_SERVER_DOWNLOAD_PATH="7671/116"
+_SERVER_VERSION="0.12.0-beta"
+_SERVER_DOWNLOAD_PATH="7719/745"
 _SERVER_FILES="ServerFiles-${_SERVER_VERSION}.zip"
 
 echo -e "${BLUE}> [DEBUG] ATMons - Server version: ${_SERVER_VERSION}${NC}"
