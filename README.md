@@ -29,7 +29,7 @@ On first run the container will download and install the tagged Version ´[All t
 ## Environment variables
 
 > [!NOTE]
-> The container supports all keys of Minecraft version 26.1.2.
+> The container supports all keys of Minecraft version 1.21.1.
 > For the individual descriptions please have a look at the [documentation](https://minecraft.wiki/w/Server.properties#Keys).\
 > For configuration purposes, entries from the `server.properties` file can be mapped to environment variables using a simple normalization scheme.\
 > Each property key is converted to uppercase, and all dots (`.`) and hyphens (`-`) are replaced with underscores (`_`).
