@@ -41,6 +41,9 @@ if [[ ! -f "$_SERVER_FILES" ]]; then
     ATM10_INSTALL_ONLY=true /bin/bash startserver.sh
 fi
 
-source /includes/config.sh
+if [[ ${MANAGE_SERVER_PROPERTIES} == "true" ]]; then
+    . /includes/generate-server-properties.sh
+    . /includes/generate-player-list-files.sh
+fi
 
 /bin/bash run.sh nogui
